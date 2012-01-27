@@ -112,6 +112,8 @@
 				GCC_OPTIMIZATION_LEVEL = 0;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = crypto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				VALID_ARCHS = "i386 x86_64 armv7 armv6";
 			};
 			name = Debug;
 		};
@@ -124,6 +126,8 @@
 				GCC_MODEL_TUNING = G5;
 				INSTALL_PATH = /usr/local/lib;
 				PRODUCT_NAME = crypto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				VALID_ARCHS = "i386 x86_64 armv7 armv6";
 				ZERO_LINK = NO;
 			};
 			name = Release;
